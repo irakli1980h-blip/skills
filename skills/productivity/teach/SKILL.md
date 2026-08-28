@@ -7,6 +7,10 @@ argument-hint: "What would you like to learn about?"
 
 The user has asked you to teach them something. This is a stateful request - they intend to learn the topic over multiple sessions.
 
+## When to reach for it
+
+Reach for this to teach a new skill or concept, taught inside this workspace against its real code rather than in the abstract.
+
 ## Teaching Workspace
 
 Treat the current directory as a teaching workspace. The state of their learning is captured in this directory in several files:

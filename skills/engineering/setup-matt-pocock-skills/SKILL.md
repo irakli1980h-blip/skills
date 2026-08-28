@@ -14,6 +14,10 @@ Scaffold the per-repo configuration that the engineering skills assume:
 
 This is a prompt-driven skill, not a deterministic script. Explore, present what you found, confirm with the user, then write.
 
+## When to reach for it
+
+Run this once before first use of the other engineering skills. It configures the repo's issue tracker, triage label vocabulary, and domain doc layout.
+
 ## Process
 
 ### 1. Explore

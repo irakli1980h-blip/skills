@@ -8,6 +8,10 @@ This skill takes the current conversation context and codebase understanding and
 
 The issue tracker and triage label vocabulary should have been provided to you. If not, tell the user to run `/setup-matt-pocock-skills`.
 
+## When to reach for it
+
+Reach for this to turn the current conversation into a spec and publish it to the project issue tracker. There is no interview: it synthesises what has already been discussed. For the interview, use `grill-with-docs`.
+
 ## Process
 
 1. Explore the repo to understand the current state of the codebase, if you haven't already. Use the project's domain glossary vocabulary throughout the spec, and respect any ADRs in the area you're touching.

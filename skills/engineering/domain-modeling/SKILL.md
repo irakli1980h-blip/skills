@@ -7,6 +7,10 @@ description: "Build and sharpen a codebase domain model and vocabulary."
 
 Actively build and sharpen the project's domain model as you design. This is the *active* discipline: challenging terms, inventing edge-case scenarios, and writing the glossary and decisions down the moment they crystallise. (Merely *reading* `CONTEXT.md` for vocabulary is not this skill: that's a one-line habit any skill can do. This skill is for when you're changing the model, not just consuming it.)
 
+## When to reach for it
+
+Reach for this when discussing codebase terminology, writing or editing a CONTEXT.md, or recording or editing an ADR. It builds and sharpens the project's domain model.
+
 ## File structure
 
 Most repos have a single context:

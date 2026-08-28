@@ -7,6 +7,10 @@ description: "Block dangerous Git commands in Claude Code hooks."
 
 Sets up a PreToolUse hook that intercepts and blocks dangerous git commands before Claude executes them.
 
+## When to reach for it
+
+Reach for this to prevent destructive git operations: it adds git safety hooks to Claude Code that block dangerous commands (push, reset --hard, clean, branch -D) before they execute.
+
 ## What Gets Blocked
 
 - `git push` (all variants including `--force`)

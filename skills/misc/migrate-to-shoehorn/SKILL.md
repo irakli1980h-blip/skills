@@ -5,6 +5,10 @@ description: "Migrate TypeScript test assertions to shoehorn safely."
 
 # Migrate to Shoehorn
 
+## When to reach for it
+
+Reach for this when shoehorn comes up, when `as` type assertions in test files should become @total-typescript/shoehorn calls, or when tests need partial data that still type-checks.
+
 ## Why shoehorn?
 
 `shoehorn` lets you pass partial data in tests while keeping TypeScript happy. It replaces `as` assertions with type-safe alternatives.

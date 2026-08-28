@@ -13,6 +13,10 @@ This command is _informed_ by the project's domain model and built on a shared d
 - Call the Skill tool with "codebase-design" for the architecture vocabulary (**module**, **interface**, **depth**, **seam**, **adapter**, **leverage**, **locality**) and its principles (the deletion test, "the interface is the test surface", "one adapter = hypothetical seam, two = real"). Use these terms exactly in every suggestion, and don't drift into "component," "service," "API," or "boundary."
 - The domain language in `CONTEXT.md` gives names to good seams; ADRs in `docs/adr/` record decisions this command should not re-litigate.
 
+## When to reach for it
+
+Reach for this to scan a whole codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick. For a single diff rather than the codebase, use `code-review`.
+
 ## Process
 
 ### 1. Explore

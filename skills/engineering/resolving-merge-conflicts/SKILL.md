@@ -3,6 +3,10 @@ name: resolving-merge-conflicts
 description: "Resolve an active Git merge or rebase conflict safely."
 ---
 
+## When to reach for it
+
+Reach for this when you need to resolve an in-progress git merge or rebase conflict. It resolves by tracing each side's intent to its primary source, and always finishes the operation rather than aborting it.
+
 1. **See the current state** of the merge/rebase. Check git history, and the conflicting files.
 
 2. **Find the primary sources** for each conflict. Understand deeply why each change was made, and what the original intent was. Read the commit messages, check the PRs, check original issues/tickets.
