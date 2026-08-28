@@ -10,6 +10,10 @@ Break a plan, spec, or conversation into a set of **tickets**: tracer-bullet ver
 
 The issue tracker and triage label vocabulary should have been provided to you. If not, tell the user to run `/setup-matt-pocock-skills`.
 
+## When to reach for it
+
+Reach for this to break a plan, a spec, or the current conversation into tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker (edges as text in one file per ticket locally, or native blocking links on a real tracker).
+
 ## Process
 
 ### 1. Gather context

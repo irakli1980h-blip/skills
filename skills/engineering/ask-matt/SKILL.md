@@ -10,6 +10,10 @@ You don't remember every skill, so ask.
 
 A **flow** is a path through the skills. Most paths run along one **main flow**, and two **on-ramps** merge onto it. Everything else is standalone, or a vocabulary layer that runs underneath.
 
+## When to reach for it
+
+Reach for this when you know what the work is but not which skill fits it. It is a router over the skills in this repo: it maps the user-reachable ones and points at the one that fits your situation, and does no work itself.
+
 ## The main flow: idea → ship
 
 The route most work travels. You have an idea and want it built.

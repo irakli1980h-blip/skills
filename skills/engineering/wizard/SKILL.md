@@ -11,6 +11,10 @@ The delightful UX is already solved by [template.sh](template.sh): stage-by-stag
 
 A wizard is ephemeral by default: built for one run, saved to a scratch or `scripts/` path, deleted when the job's done. Commit it only when the user wants a repeatable setup path that should live in the repo.
 
+## When to reach for it
+
+Reach for this to generate an interactive bash wizard for steps only a human can perform: provisioning infrastructure, setting up credentials or CI secrets, walking an unfamiliar third-party dashboard, or running a one-off migration or cutover. Steps the agent can perform itself belong in the agent's own run.
+
 ## Process
 
 ### 1. Scope the procedure

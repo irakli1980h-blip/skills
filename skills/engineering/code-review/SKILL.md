@@ -12,6 +12,12 @@ Both axes run as **parallel sub-agents** so they don't pollute each other's cont
 
 The issue tracker should have been provided to you. If `docs/agents/issue-tracker.md` is missing, tell the user to run `/setup-matt-pocock-skills`.
 
+## When to reach for it
+
+Reach for this to review a branch, a PR, work-in-progress changes, or the changes "since X", where X is a commit, branch, tag, or merge-base. The review runs two axes in parallel sub-agents: Standards (does the code follow this repo's documented coding standards?) and Spec (does it match what the originating issue asked for?).
+
+For bugs hunted inside the diff, use your harness's own review. For code not written yet, use `tdd`. For drift across the whole codebase rather than one diff, use `improve-codebase-architecture`.
+
 ## Process
 
 ### 1. Pin the fixed point

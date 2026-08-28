@@ -3,6 +3,10 @@ name: research
 description: "Research primary sources and write cited Markdown findings."
 ---
 
+## When to reach for it
+
+Reach for this when a topic needs researching, docs or API facts need gathering, or reading legwork should be delegated to a background agent. Findings land as a cited Markdown file captured in the repo, gathered from high-trust primary sources rather than secondary write-ups.
+
 Spin up a **background agent** to do the research, so you keep working while it reads.
 
 Its job:

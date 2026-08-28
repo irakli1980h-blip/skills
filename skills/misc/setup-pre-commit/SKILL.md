@@ -5,6 +5,10 @@ description: "Set up Husky pre-commit lint, format, type, and test gates."
 
 # Setup Pre-Commit Hooks
 
+## When to reach for it
+
+Reach for this to add pre-commit hooks to the current repo: set up Husky, configure lint-staged (Prettier), and add commit-time formatting, typechecking, and testing.
+
 ## What This Sets Up
 
 - **Husky** pre-commit hook

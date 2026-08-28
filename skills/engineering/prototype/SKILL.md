@@ -7,6 +7,10 @@ description: "Build a throwaway prototype to answer a design question."
 
 A prototype is **throwaway code that answers a question**. The question decides the shape.
 
+## When to reach for it
+
+Reach for this to sanity-check whether a state model or piece of logic feels right, or to explore what a UI should look like. The output is throwaway: it answers a design question, it does not ship.
+
 ## Pick a branch
 
 Identify which question is being answered, using the user's prompt, the surrounding code, or by asking if the user is around:

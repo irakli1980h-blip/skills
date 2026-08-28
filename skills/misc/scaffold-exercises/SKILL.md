@@ -7,6 +7,10 @@ description: "Scaffold exercises with problems, solutions, and checks."
 
 Create exercise directory structures that pass `pnpm ai-hero-cli internal lint`, then commit with `git commit`.
 
+## When to reach for it
+
+Reach for this to scaffold exercise directory structures: sections, problems, solutions, and explainers that pass linting. Also for stubbing a new course section.
+
 ## Directory naming
 
 - **Sections**: `XX-section-name/` inside `exercises/` (e.g., `01-retrieval-skill-building`)

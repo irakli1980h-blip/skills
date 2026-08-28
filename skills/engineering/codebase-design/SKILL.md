@@ -7,6 +7,10 @@ description: "Design deep modules with shared architectural vocabulary."
 
 Design **deep modules**: a lot of behaviour behind a small interface, placed at a clean seam, testable through that interface. Use this language and these principles wherever code is being designed or restructured. The aim is leverage for callers, locality for maintainers, and testability for everyone.
 
+## When to reach for it
+
+Reach for this when designing or improving a module's interface, finding deepening opportunities, deciding where a seam goes, or making code more testable and AI-navigable. Reach for it too when another skill needs the deep-module vocabulary.
+
 ## Glossary
 
 Use these terms exactly: don't substitute "component," "service," "API," or "boundary." Consistent language is the whole point.
